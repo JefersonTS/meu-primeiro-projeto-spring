@@ -23,8 +23,8 @@ public class MeuPrimeiroProjetoSpringApplication {
 			System.out.println("Senha encoded: " + senhaEncoded);
 			senhaEncoded = SenhaUtils.gerarBCrypt("123456");
 			System.out.println("Senha encoded novamente:" + senhaEncoded);
-			System.out.println("Senha válida: " + SenhaUtils.senhaValida("123456", senhaEncoded));
+			System.out.println("Senha válida: " + SenhaUtils.senhaValida("123456", 
+					senhaEncoded));
 		};
 	}
-
 }
